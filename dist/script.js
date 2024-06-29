@@ -11,7 +11,12 @@ add_btn.addEventListener("click",() => {
        let li = document.createElement("li");
        li.innerHTML = inputbox.value;
        list_container.appendChild(li);
-       
+       let span = document.createElement("span");
+       span.innerHTML = "\u00d7";
+       li.appendChild(span);
+       span.addEventListener("click" , () => {
+       li.style.display="none";
+       })
     }
     inputbox.value="";
 })
