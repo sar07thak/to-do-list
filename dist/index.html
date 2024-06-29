@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="output.css">
+    
+</head>
+<body>
+    <!-- Container -->
+    <div class="container h-screen w-screen bg-background flex justify-center items-center text-white">
+        <!-- conatiner -->
+         <div class="container w-1/3 p-10 bg-innerBackground  rounded-xl shadow-innerBackground shadow-sm">
+            <!-- paragraph -->
+            <h1 class="mb-3 font-bold text-3xl">To-Do List</h1>
+            <div class="input_box flex text-xl  rounded-3xl justify-between items-center bg-gray-300 ">
+                <input type="text" placeholder="Add Your Text" class="input-box pl-7 bg-transparent text-black outline-none ">
+                <button class="add-btn p-2 w-28 border rounded-3xl shadow-black shadow-lg mb-[3px] bg-background "> Add</button>
+            </div>
+            <ul class="list-container text-xl pl-10 pt-3">
+            </ul>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
