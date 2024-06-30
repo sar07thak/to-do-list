@@ -7,6 +7,10 @@ module.exports = {
         background: "#473E66",
         innerBackground : "#BD83B8"
       },
+
+      fontFamily: {
+        headFont : ['Playwrite US Modern']
+      },
     },
   },
   plugins: [],
