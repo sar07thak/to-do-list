@@ -38,3 +38,8 @@ li span{
     border-radius: 100%;
     /* text-decoration: line-through; */
 }
+
+body{
+    background-image: url(../image/jpg-7);
+    background-size: contain;
+}

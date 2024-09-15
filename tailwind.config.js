@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#473E66",
-        innerBackground : "#BD83B8"
+        background: "#473E65",
+        innerBackground : "#BD83B8",
+        newcolor : "#6495ED"
       },
 
       fontFamily: {
